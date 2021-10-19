@@ -5,8 +5,8 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/yana-shkvarovskaya/goit-js-hw-08/issues"
   },
-  "homepage": "https://github.com/yana-shkvarovskaya/goit-js-hw-08/index.html",
+  "homepage": "https://github.com/yana-shkvarovskaya/goit-js-hw-08#readme",
   "dependencies": {
     "simplelightbox": "^2.9.0"
   },
